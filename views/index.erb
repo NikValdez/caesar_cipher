@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Caesar Cipher</title>
+  </head>
+    <link rel="stylesheet" href="styles.css">
+  <body
+    <h1>Caesar Cipher</h1>
+    <form method="POST" action="/">
+    <label for="cipher">Enter your message here:</label>
+    <div>
+      <textarea rows="10" cols="70" name="string"></textarea>
+    </div>
+    <label for="shift">Enter your shift amount here</label>
+    <div>
+      <input type="number" name="shift" min="1">
+    </div>
+    <div>
+      <input type="submit">
+    </div>
+    </form>
+    <div>
+    <p> <%= string %> </p>
+    </div>
+  </body>
+</html>
